@@ -47,3 +47,7 @@ end
 gem 'rails_12factor', group: :production
 gem "awesome_print", require:"ap"
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
+
